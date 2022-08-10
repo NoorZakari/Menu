@@ -23,6 +23,7 @@ sliderWidth =slider.offsetWidth;
             count++;
         }
     };
+    
     var nextSlide = function(){
         if(count < items){
             slideList.style.left="-" +count  *  sliderWidth + "px";
@@ -38,20 +39,16 @@ sliderWidth =slider.offsetWidth;
     next.addEventListener("click",function(){
         nextSlide();
     });
+
     prev.addEventListener("click",function(){
        prevSlide();
     });
-
-    // sentInterval(function(){
-    //     prevSlide();
-    // },5000);
-    
-    sentInterval(function(){
-        nextSlide();
+    setInterval(function() {
+    nextSlide()
     },5000);
-    
-};
 
+}
 window.onload=function(){
     responsiveSlider();
-}
+};
+
