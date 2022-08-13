@@ -7,9 +7,7 @@ body{
     margin:5%;
     margin-left: 20%;
   }
-  #slideWrap{
-
-  }
+ 
   #slider{
    position: relative;
    width: 900px;
@@ -30,7 +28,8 @@ body{
     scroll-snap-type: x;
     cursor: grab;
     scroll-behavior: smooth;
-    scrollbar-width: none; /* for firefox */
+    scrollbar-width: none;
+     /* for firefox */
   }
 
   #slider ul li{

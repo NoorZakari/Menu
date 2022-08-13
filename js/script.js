@@ -53,7 +53,7 @@ window.onload=function(){
 };
 
 // *******Touch slide
-const wrapper = document.querySelector('#slideWrap')
+const wrapper = document.querySelector('.Wrap')
 
 let pressed = false
 let startX = 0
