@@ -9,7 +9,6 @@
   margin-left: 120px;
   margin-top: 13px;
   border-radius: 60%;
-
 }
 
 .navbar {
@@ -35,10 +34,42 @@
 }
 
 .box > input {
+  position: absolute;
   height: 55px;
   border: none;
   outline: none;
   font-size: 18px;
   width: 900px;
   border-radius: 15px;
+}
+
+footer {
+  background: #111;
+  height: auto;
+  width: 99vw;
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i {
+  font-size: 1.5rem;
 }
