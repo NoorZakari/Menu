@@ -73,3 +73,15 @@ footer {
 .socials a i {
   font-size: 1.5rem;
 }
+
+.w-100 {
+  width: 100%!important;
+  height: 100vh !important;
+  margin-top: 11px!important;
+}
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 100%!important;
+
+}
+}
